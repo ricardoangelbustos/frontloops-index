@@ -8,7 +8,7 @@ body{
     font-family: "Roboto", sans-serif;
 }
 .container{
-    background-color: rgb(219, 219, 219);
+    background-color: #16a085;
     width: 80%;
     margin: 20px auto;
     border-radius: 5px;
@@ -20,6 +20,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 1px solid #293146;
+    padding-bottom: 20px;
 }
 .title h1{
     font-size: 40px;
@@ -48,11 +50,11 @@ body{
     padding-top: 10px;
 }
 .col a{
-    background-color: skyblue;
+    background-color: #293146;
     width: 40%;
     height: 40px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 15px;
     font-weight: 600;
     display: flex;
@@ -65,8 +67,8 @@ body{
 .col a:hover{
     transform: translateY(-5px);
     width: 45%;
-    color: skyblue;
-    background-color: black;
+    color: #293146;
+    background-color: white;
 }
 .challenge{
     width: 100%;
@@ -74,15 +76,15 @@ body{
     justify-content: center;
     align-items: center;
     padding: 10px 0 10px 0;
-    border-bottom: 1px solid skyblue;
+    border-bottom: 1px solid #293146;
     padding-bottom: 20px;
 }
 .challenge a{
-    background-color: salmon;
+    background-color: red;
     width: 25%;
     height: 40px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 15px;
     font-weight: 600;
     display: flex;
@@ -92,9 +94,9 @@ body{
     transition: 500ms;
 }
 .challenge a:hover{
-    color: salmon;
+    color: red;
     width: 30%;
-    background-color: black;
+    background-color: white;
 }
 @media (max-width: 425px){
     .container{
